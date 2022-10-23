@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+}
+
+.navbar {
+    width: 96.5vw;
+    display: flex;
+    justify-content: space-between;
+    background-color: blueviolet;
+    padding: 15px;
+    border-radius: 5px;
+
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+
+
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+li {
+    margin: 0px 10px;
+}
+
+.navbar input {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.navbar button {
+    background-color: white;
+    border: none;
+    padding: 10px;
+    margin-right: 25px;
+    border-radius: 5px;
+
+}
+
+.banner img {
+    width: 98.67vw;
+    height: 600px;
+}
+
+.mid {
+    width: 100vw;
+    height: 100vh;
+}
+
+.item1 img,
+.item2 img {
+    width: 25%;
+    height: 250px;
+
+}
+
+.heading5 {
+    background-color: blueviolet;
+    padding: 10px;
+    text-align: center;
+    color: white;
+
+}
+
+.item1,.item2 {
+    margin-top: 5px;
+    display: flex;
+}
+
+ p {
+    text-align: justify;
+    padding: 10px;
+}
+.item2{
+    flex-direction: row-reverse;
+}
+.footer{
+    background-color: rgb(125, 2, 240);
+    padding: 10px;
+    margin-top: 70px;
+    border-radius: 5px;
+    
+}
+.footer p{
+    text-align: center;
+}
+.detail input{
+    padding: 10px;
+    margin: 5px;
+    place-items: center;
+
+}
+.detail button{
+    padding: 10px;
+    place-items: center;
+    border-radius: 5px;
+}
